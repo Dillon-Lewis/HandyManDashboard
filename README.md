@@ -89,8 +89,7 @@ Each widget displays key metrics and navigates to a detailed page.
 - Clients
 - Invoices
 - Crew Members
-- Expenses
-- Yearly Profit
+- Income
 
 All values are dynamically derived from application data.
 
