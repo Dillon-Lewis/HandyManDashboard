@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "projectId": 1,
+    "category": "materials",
+    "description": "Paint, flooring, drywall",
+    "amount": 2000
+  },
+  {
+    "id": 2,
+    "projectId": 1,
+    "category": "labor",
+    "description": "Contractor and crew wages",
+    "amount": 3000
+  },
+  {
+    "id": 3,
+    "projectId": 2,
+    "category": "materials",
+    "description": "Concrete, steel, wood",
+    "amount": 8000
+  },
+  {
+    "id": 4,
+    "projectId": 2,
+    "category": "labor",
+    "description": "Crew wages",
+    "amount": 6000
+  },
+  {
+    "id": 5,
+    "projectId": 3,
+    "category": "materials",
+    "description": "Fixtures, lighting, wiring",
+    "amount": 5000
+  },
+  {
+    "id": 6,
+    "projectId": 3,
+    "category": "labor",
+    "description": "Electrician and general labor",
+    "amount": 4000
+  },
+  {
+    "id": 7,
+    "projectId": 4,
+    "category": "materials",
+    "description": "Lumber, steel, plumbing",
+    "amount": 50000
+  },
+  {
+    "id": 8,
+    "projectId": 4,
+    "category": "labor",
+    "description": "Contractor and subcontractors",
+    "amount": 40000
+  },
+  {
+    "id": 9,
+    "projectId": 5,
+    "category": "materials",
+    "description": "Cabinets, tiles, countertops",
+    "amount": 8000
+  },
+  {
+    "id": 10,
+    "projectId": 5,
+    "category": "labor",
+    "description": "Plumber and tiler wages",
+    "amount": 7000
+  },
+  {
+    "id": 11,
+    "projectId": 6,
+    "category": "materials",
+    "description": "Concrete, steel, shelving materials",
+    "amount": 20000
+  },
+  {
+    "id": 12,
+    "projectId": 6,
+    "category": "labor",
+    "description": "Crew wages",
+    "amount": 10000
+  },
+  {
+    "id": 13,
+    "projectId": 7,
+    "category": "materials",
+    "description": "Tiles and fixtures",
+    "amount": 2000
+  },
+  {
+    "id": 14,
+    "projectId": 7,
+    "category": "labor",
+    "description": "Contractor labor",
+    "amount": 1500
+  },
+  {
+    "id": 15,
+    "projectId": 8,
+    "category": "materials",
+    "description": "Wood, screws, paint",
+    "amount": 4000
+  },
+  {
+    "id": 16,
+    "projectId": 8,
+    "category": "labor",
+    "description": "Crew wages",
+    "amount": 3000
+  },
+  {
+    "id": 17,
+    "projectId": 9,
+    "category": "materials",
+    "description": "Paint and rollers",
+    "amount": 500
+  },
+  {
+    "id": 18,
+    "projectId": 9,
+    "category": "labor",
+    "description": "Painter wages",
+    "amount": 1000
+  },
+  {
+    "id": 19,
+    "projectId": 10,
+    "category": "materials",
+    "description": "Glass panes and frames",
+    "amount": 2000
+  },
+  {
+    "id": 20,
+    "projectId": 10,
+    "category": "labor",
+    "description": "Installer wages",
+    "amount": 1500
+  }
+]

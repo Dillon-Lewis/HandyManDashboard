@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Mike Thompson",
+    "role": "Contractor",
+    "projects": [1, 5, 9, 10],
+    "profilePic": "https://randomuser.me/api/portraits/men/32.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Lee",
+    "role": "General Labor",
+    "projects": [1, 2, 9],
+    "profilePic": "https://randomuser.me/api/portraits/women/44.jpg"
+  },
+  {
+    "id": 3,
+    "name": "David Kim",
+    "role": "Electrician",
+    "projects": [3, 7, 10],
+    "profilePic": "https://randomuser.me/api/portraits/men/65.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Laura Chen",
+    "role": "Builder",
+    "projects": [4, 6, 8],
+    "profilePic": "https://randomuser.me/api/portraits/women/21.jpg"
+  }
+]

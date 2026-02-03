@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  top: 0;
+  background: white;
+}
+
+.navContainer {
+  display: flex;
+  gap: 40px;
+}
+
+.logo {
+  font-weight: bold;
+  color: var(--main-color);
+  cursor: pointer;
+}
+
+.activeLink {
+  text-decoration: none;
+  color: var(--main-color);
+  font-weight: bold;
+  font-size: 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.inactiveLink {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}

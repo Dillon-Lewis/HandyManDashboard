@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Alice Smith",
+    "email": "alice@acmeconst.com",
+    "phone": "555-1234",
+    "business": "Acme Construction",
+    "projects": [1, 2]
+  },
+  {
+    "id": 2,
+    "name": "Bob Johnson",
+    "email": "bob@buildright.com",
+    "phone": "555-5678",
+    "business": "BuildRight LLC",
+    "projects": [3]
+  },
+  {
+    "id": 3,
+    "name": "Joe Solo",
+    "email": "joe@solobuilder.com",
+    "phone": "555-9012",
+    "business": null,
+    "projects": [4]
+  },
+  {
+    "id": 4,
+    "name": "Karen Mills",
+    "email": "karen@millshome.com",
+    "phone": "555-3456",
+    "business": "Mills Home Renovations",
+    "projects": [5]
+  },
+  {
+    "id": 5,
+    "name": "Sam Lee",
+    "email": "sam@freelancebuilder.com",
+    "phone": "555-7890",
+    "business": null,
+    "projects": [6]
+  }
+]

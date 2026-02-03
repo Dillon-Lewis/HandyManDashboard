@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 80vh;
+}
+
+.headingContainer {
+  margin-top: 100px;
+  max-width: 700px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.headingText {
+  font-size: 50px; 
+  margin-bottom: 20px;
+  font-weight: 600; 
+}
+
+.infoText {
+  padding-top: 10px;
+  font-size: 22px; 
+  line-height: 26px; 
+  color: var(--text-color);
+  font-weight: 400; 
+}
+
+.content {
+  display: flex;
+  gap: 46px; 
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+.features {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+.featureCard {
+  flex: 1;
+  padding: 24px; 
+  border: none;
+  text-align: center;
+}
+.featureCardHeading{
+  font-weight: 600;
+  font-size: 25px;
+}
+.featureCardText{
+  margin-top: 5px;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.icon {
+  font-size: 40px; 
+  margin-bottom: 25px; 
+  color: var(--main-color);
+  transition: transform .2s ease, color .2s ease;
+}
+
+.featureCard:hover .icon {
+  transform: scale(1.2);
+  color: rgb(255, 140, 0); 
+}
+
+.sectionDivider {
+  width: 100vw; 
+  margin: 100px 0; 
+  overflow: hidden; 
+}
+
+.sectionDivider img {
+  width: 100%; 
+  height: auto; 
+  display: block; 
+  object-fit: cover; 
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+
+  .features {
+    flex-direction: column;
+  }
+}
