@@ -1,8 +1,81 @@
-.container{
-    display: flex;
+.container {
+  display: flex;
+  min-height: 100vh;
 }
-.contentContainer{
-    margin-left: 220px;
-    padding: 20px; 
-    flex: 1;
+
+/* Right side of the page */
+.headingContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  transition: padding 0.3s ease;
+  background: #dfdfdf41;
+}
+
+/* Page title */
+.projectHeader {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.tableContainer {
+  margin-top: 50px;
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  margin: 20px 30px;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table th {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+  color: #acabab;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  border-bottom: #dad9d9 1px solid;
+  
+}
+.table td {
+  padding: 15px 0;
+  border-top: 1px solid #eeeeee;
+  font-size: 16px;
+}
+
+.statusBadge{
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+.planned{
+  background-color: #f8780067;
+}
+.active{
+  background-color: rgba(78, 231, 78, 0.5);
+}
+.finished{
+  background-color: rgba(128, 128, 128, 0.5);
+}
+.expandButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.dropdownRow td {
+  background-color: #f3f4f6; /* light gray for contrast */
+  padding: 12px 20px;
+}
+
+.dropdownRow p {
+  margin: 4px 0;
+  font-size: 14px;
 }

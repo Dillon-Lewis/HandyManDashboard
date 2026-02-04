@@ -1,18 +1,19 @@
 import SideBarNav from "../components/SideBarNav";
 import { useAuth } from "../context/AuthContext";
-import styles from "../modules/dashboard.module.css"
+import styles from "../modules/settings.module.css"
 
-const Dashboard = () => {
-  const { user } = useAuth();
+const Settings = () => {
+  const { user, logout } = useAuth();
 
   return (
     <div className={styles.container}>
       <SideBarNav />
       <div className={styles.contentContainer}>
-        <span>Welcome, {user?.email}</span>
+        <p>Settings</p>
+        <button onClick={logout}>Logout</button>
       </div>
     </div>
   );
 };
 
-export default Dashboard;
+export default Settings;

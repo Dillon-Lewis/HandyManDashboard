@@ -9,6 +9,7 @@ import Invoices from "./pages/Invoices";
 import Profits from "./pages/Profits";
 import Client from "./pages/Client";
 import Crew from "./pages/Crew";
+import Settings from "./pages/Settings";
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
           <Route path="/profits" element={<Profits/>} />
           <Route path="/clients" element={<Client/>} />
           <Route path="/crew" element={<Crew/>}/>
+          <Route path="/settings" element={<Settings/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

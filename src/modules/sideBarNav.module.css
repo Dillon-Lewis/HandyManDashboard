@@ -1,15 +1,11 @@
 .container {
-  position: fixed;
-  left: 0;
-  top: 0;
   width: 220px;
   height: 100vh;
-  background: #e2e2e2;
-  border-right: 1px solid #ffffff;
+  background: #c7772c3b;
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: width .3s ease;
+  transition: width 0.3s ease;
 }
 .container.collapsed{
   width: 80px;
