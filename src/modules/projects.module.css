@@ -16,7 +16,9 @@
 .projectHeader {
   font-size: 32px;
   font-weight: 600;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  margin-left: 60px;
 }
 
 .tableContainer {
@@ -27,6 +29,51 @@
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
   margin: 20px 30px;
 }
+
+.tableHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.tableHeader h2 {
+  font-size: 42px;
+  font-weight: 600;
+  color: var(--main-color);
+}
+
+.actions {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  flex-direction: column;
+}
+
+.addButton {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(223, 135, 3);
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.addButton:hover {
+  background-color: #e06b00; /* slightly darker orange on hover */
+  transform: translateX(-4px);
+}
+
+.sortSelect {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
 .table {
   width: 100%;
   border-collapse: collapse;
@@ -39,7 +86,6 @@
   text-transform: uppercase;
   margin-bottom: 15px;
   border-bottom: #dad9d9 1px solid;
-  
 }
 .table td {
   padding: 15px 0;
@@ -47,21 +93,25 @@
   font-size: 16px;
 }
 
-.statusBadge{
+.statusBadge {
   display: inline-block;
   padding: 4px 12px;
   border-radius: 20px;
   font-weight: 500;
 }
-.planned{
-  background-color: #f8780067;
-}
-.active{
+.planned {
   background-color: rgba(78, 231, 78, 0.5);
 }
-.finished{
+.active {
+  background-color: #f878007a;
+}
+.finished {
   background-color: rgba(128, 128, 128, 0.5);
 }
+.delayed {
+  background-color: rgba(255, 0, 0, 0.541);
+}
+
 .expandButton {
   background: none;
   border: none;
@@ -72,9 +122,35 @@
 
 .dropdownRow td {
   background-color: #f3f4f6; /* light gray for contrast */
-  padding: 12px 20px;
+  padding: 0;
+  border-top: 1px solid #eeeeee;
 }
 
+.projectName {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: var(--main-color);
+}
+
+.dropdownContent {
+  padding: 12px 20px;
+  margin-bottom: 5px;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transform: translateY(-6px);
+  transition:
+    max-height 0.4s ease,
+    opacity 0.3s ease,
+    transform 0.3s ease;
+}
+
+.open {
+  max-height: 300px; /* big enough to fit content */
+  opacity: 1;
+  transform: translateY(0);
+}
 .dropdownRow p {
   margin: 4px 0;
   font-size: 14px;
