@@ -11,7 +11,6 @@ const Projects = () => {
   const { user } = useAuth();
   const [open, setOpen] = useState(null);
   const [sortType, setSortType] = useState("status"); // default sort by status
-  const [addOpen, setAddOpen] = useState(false);
 
   const handleSortChange = (e) => {
     setSortType(e.target.value);
@@ -72,7 +71,6 @@ const Projects = () => {
             <div className={styles.actions}>
               <button
                 className={styles.addButton}
-                onClick={() => setAddOpen((prev) => !prev)}
               >
                 Add Project +
               </button>

@@ -1,4 +1,5 @@
 import SideBarNav from "../components/SideBarNav";
+import TopNavBar from "../components/TopNavBar";
 import { useAuth } from "../context/AuthContext";
 import styles from "../modules/invoices.module.css";
 
@@ -8,6 +9,7 @@ const Invoices = () => {
   return (
     <div className={styles.container}>
       <SideBarNav />
+      <TopNavBar/>
       <div className={styles.contentContainer}>Invoices </div>
     </div>
   );
