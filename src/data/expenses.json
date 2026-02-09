@@ -138,5 +138,33 @@
     "category": "labor",
     "description": "Installer wages",
     "amount": 1500
+  },
+  {
+    "id": 21,
+    "projectId": 11,
+    "category": "materials",
+    "description": "Electrical wiring, outlets, breakers",
+    "amount": 20000
+  },
+  {
+    "id": 22,
+    "projectId": 11,
+    "category": "labor",
+    "description": "Electrician and helpers wages",
+    "amount": 15000
+  },
+  {
+    "id": 23,
+    "projectId": 12,
+    "category": "materials",
+    "description": "Lobbies furniture, lighting, flooring",
+    "amount": 90000
+  },
+  {
+    "id": 24,
+    "projectId": 12,
+    "category": "labor",
+    "description": "Construction and subcontractor wages",
+    "amount": 40000
   }
 ]

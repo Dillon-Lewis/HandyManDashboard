@@ -108,7 +108,7 @@ const Projects = () => {
                       <td>{project.name}</td>
                       <td>{project.startDate}</td>
                       <td>{project.estimatedEndDate}</td>
-                      <td>{project.crew.length}</td>
+                      <td>{project.crewIds.length}</td>
                       <td>
                         <span
                           className={`${styles.statusBadge} ${styles[project.status]}`}
@@ -152,7 +152,7 @@ const Projects = () => {
                             </p>
                             <p>
                               <strong>Crew:</strong>{" "}
-                              {getCrewNames(project.crew)}
+                              {getCrewNames(project.crewIds)}
                             </p>
                             {project.comment && (
                               <p>

@@ -3,80 +3,120 @@
     "id": 1,
     "projectId": 1,
     "clientId": 1,
+    "expensesIds": [1, 2],
     "amount": 8000,
     "status": "paid",
-    "dueDate": "2025-09-15"
+    "dueDate": "2025-09-15",
+    "paidDate": "2025-09-12"
   },
   {
     "id": 2,
     "projectId": 2,
     "clientId": 1,
+    "expensesIds": [3, 4],
     "amount": 15000,
     "status": "paid",
-    "dueDate": "2025-08-15"
+    "dueDate": "2025-08-15",
+    "paidDate": "2025-08-10"
   },
   {
     "id": 3,
     "projectId": 3,
     "clientId": 2,
+    "expensesIds": [5, 6],
     "amount": 12000,
     "status": "paid",
-    "dueDate": "2025-12-01"
+    "dueDate": "2025-12-01",
+    "paidDate": "2025-11-28"
   },
   {
     "id": 4,
     "projectId": 4,
     "clientId": 3,
+    "expensesIds": [7, 8],
     "amount": 95000,
     "status": "paid",
-    "dueDate": "2025-11-15"
+    "dueDate": "2025-11-15",
+    "paidDate": "2025-11-10"
   },
   {
     "id": 5,
     "projectId": 5,
     "clientId": 4,
+    "expensesIds": [9, 10],
     "amount": 15000,
     "status": "paid",
-    "dueDate": "2025-08-10"
+    "dueDate": "2025-08-10",
+    "paidDate": "2025-08-08"
   },
   {
     "id": 6,
     "projectId": 6,
     "clientId": 5,
+    "expensesIds": [11, 12],
     "amount": 30000,
     "status": "paid",
-    "dueDate": "2025-10-20"
+    "dueDate": "2025-10-20",
+    "paidDate": "2025-10-18"
   },
   {
     "id": 7,
     "projectId": 7,
     "clientId": 2,
+    "expensesIds": [13, 14],
     "amount": 6000,
     "status": "unpaid",
-    "dueDate": "2026-02-10"
+    "dueDate": "2026-02-10",
+    "paidDate": null
   },
   {
     "id": 8,
     "projectId": 8,
     "clientId": 3,
+    "expensesIds": [15, 16],
     "amount": 12000,
     "status": "unpaid",
-    "dueDate": "2026-03-01"
+    "dueDate": "2026-03-01",
+    "paidDate": null
   },
   {
     "id": 9,
     "projectId": 9,
     "clientId": 1,
+    "expensesIds": [17, 18],
     "amount": 2000,
     "status": "unpaid",
-    "dueDate": "2026-02-15"
+    "dueDate": "2026-02-15",
+    "paidDate": null
   },
   {
     "id": 10,
     "projectId": 10,
     "clientId": 4,
+    "expensesIds": [19, 20],
     "amount": 5000,
     "status": "unpaid",
-    "dueDate": "2026-03-20"
+    "dueDate": "2026-03-20",
+    "paidDate": null
+  },
+  {
+    "id": 11,
+    "projectId": 11,
+    "clientId": 4,
+    "expensesId": [],
+    "amount": 55000,
+    "status": "unpaid",
+    "dueDate": "2025-12-15",
+    "paidDate": null
+  },
+  {
+    "id": 12,
+    "projectId": 12,
+    "clientId": 3,
+    "expensesId": [],
+    "amount": 145000,
+    "status": "unpaid",
+    "dueDate": "2025-12-01",
+    "paidDate": null
   }
 ]

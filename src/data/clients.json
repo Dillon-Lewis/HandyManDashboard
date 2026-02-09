@@ -1,51 +1,56 @@
 [
   {
     "id": 1,
+    "projects": [1, 2, 9],
+    "invoices": [1, 2, 9],
     "name": "Alice Smith",
     "email": "alice@acmeconst.com",
     "phone": "555-1234",
     "business": "Acme Construction",
-    "projects": [1, 2, 9],
     "dateCreated": "2024-01-15",
     "notes": null
   },
   {
     "id": 2,
+    "projects": [3, 7],
+    "invoices": [3, 7],
     "name": "Bob Johnson",
     "email": "bob@buildright.com",
     "phone": "555-5678",
     "business": "BuildRight LLC",
-    "projects": [3, 7],
     "dateCreated": "2024-08-02",
     "notes": "Prefers email communication"
   },
   {
     "id": 3,
+    "projects": [4, 8, 12],
+    "invoices": [4, 8, 12],
     "name": "Joe Solo",
     "email": "joe@solobuilder.com",
     "phone": "555-9012",
     "business": null,
-    "projects": [4, 8, 12],
     "dateCreated": "2026-01-10",
     "notes": null
   },
   {
     "id": 4,
+    "projects": [5, 10, 11],
+    "invoices": [5, 10, 11],
     "name": "Karen Mills",
     "email": "karen@millshome.com",
     "phone": "555-3456",
     "business": "Mills Home Renovations",
-    "projects": [5, 10, 11],
     "dateCreated": "2023-11-22",
     "notes": "Repeat customer"
   },
   {
     "id": 5,
+    "projects": [6],
+    "invoices": [6],
     "name": "Sam Lee",
     "email": "sam@freelancebuilder.com",
     "phone": "555-7890",
     "business": null,
-    "projects": [6],
     "dateCreated": "2025-01-05",
     "notes": null
   }

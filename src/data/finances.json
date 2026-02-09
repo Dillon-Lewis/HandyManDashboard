@@ -1,0 +1,117 @@
+{
+  "id": 1,
+  "name": "Your Business Name",
+  "email": "you@business.com",
+  "phone": "555-0000",
+  "projects": [
+    {
+      "projectId": 1,
+      "projectName": "Office Renovation",
+      "materialExpenses": 2000,
+      "laborExpenses": 3000,
+      "totalExpenses": 5000,
+      "quotedPrice": 45000,
+      "profit": 40000
+    },
+    {
+      "projectId": 2,
+      "projectName": "Warehouse Build",
+      "materialExpenses": 8000,
+      "laborExpenses": 6000,
+      "totalExpenses": 14000,
+      "quotedPrice": 180000,
+      "profit": 166000
+    },
+    {
+      "projectId": 3,
+      "projectName": "Retail Store Fitout",
+      "materialExpenses": 5000,
+      "laborExpenses": 4000,
+      "totalExpenses": 9000,
+      "quotedPrice": 62000,
+      "profit": 53000
+    },
+    {
+      "projectId": 4,
+      "projectName": "Custom Home Build",
+      "materialExpenses": 50000,
+      "laborExpenses": 40000,
+      "totalExpenses": 90000,
+      "quotedPrice": 320000,
+      "profit": 230000
+    },
+    {
+      "projectId": 5,
+      "projectName": "Kitchen Remodel",
+      "materialExpenses": 8000,
+      "laborExpenses": 7000,
+      "totalExpenses": 15000,
+      "quotedPrice": 28000,
+      "profit": 13000
+    },
+    {
+      "projectId": 6,
+      "projectName": "Garage Expansion",
+      "materialExpenses": 20000,
+      "laborExpenses": 10000,
+      "totalExpenses": 30000,
+      "quotedPrice": 35000,
+      "profit": 5000
+    },
+    {
+      "projectId": 7,
+      "projectName": "Bathroom Upgrade",
+      "materialExpenses": 2000,
+      "laborExpenses": 1500,
+      "totalExpenses": 3500,
+      "quotedPrice": 22000,
+      "profit": 18500
+    },
+    {
+      "projectId": 8,
+      "projectName": "Backyard Deck Construction",
+      "materialExpenses": 4000,
+      "laborExpenses": 3000,
+      "totalExpenses": 7000,
+      "quotedPrice": 48000,
+      "profit": 41000
+    },
+    {
+      "projectId": 9,
+      "projectName": "Office Interior Painting",
+      "materialExpenses": 500,
+      "laborExpenses": 1000,
+      "totalExpenses": 1500,
+      "quotedPrice": 12000,
+      "profit": 10500
+    },
+    {
+      "projectId": 10,
+      "projectName": "Retail Window Replacement",
+      "materialExpenses": 2000,
+      "laborExpenses": 1500,
+      "totalExpenses": 3500,
+      "quotedPrice": 18000,
+      "profit": 14500
+    },
+    {
+      "projectId": 11,
+      "projectName": "Apartment Electrical Rewire",
+      "materialExpenses": 20000,
+      "laborExpenses": 15000,
+      "totalExpenses": 35000,
+      "quotedPrice": 55000,
+      "profit": 20000
+    },
+    {
+      "projectId": 12,
+      "projectName": "Hotel Lobby Renovation",
+      "materialExpenses": 90000,
+      "laborExpenses": 40000,
+      "totalExpenses": 130000,
+      "quotedPrice": 145000,
+      "profit": 15000
+    }
+  ]
+
+}
