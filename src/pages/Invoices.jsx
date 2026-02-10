@@ -9,8 +9,13 @@ const Invoices = () => {
   return (
     <div className={styles.container}>
       <SideBarNav />
-      <TopNavBar/>
-      <div className={styles.contentContainer}>Invoices </div>
+
+      <div className={styles.mainContent}>
+        <TopNavBar />
+        <div className={styles.contentContainer}>
+          Invoices
+        </div>
+      </div>
     </div>
   );
 };

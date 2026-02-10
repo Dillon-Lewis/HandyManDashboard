@@ -1,8 +1,17 @@
-.container{
-    display: flex;
+.container {
+  display: flex;
+  min-height: 100vh;
 }
-.contentContainer{
-    margin-left: 220px;
-    padding: 20px; 
-    flex: 1;
+
+.mainContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-left: 220px; /* matches sidebar width */
+}
+
+.contentContainer {
+  padding: 20px;
+  flex: 1;
+  background: #f9fafb;
 }

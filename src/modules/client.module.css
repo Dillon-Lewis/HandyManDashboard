@@ -120,8 +120,7 @@
   text-transform: uppercase;
   text-decoration: underline 0.5px;
 }
-.projectsContainer {
-}
+
 .projectName {
   font-size: 25px;
   font-weight: bold;
@@ -130,8 +129,7 @@
   text-transform: uppercase;
   text-decoration: underline 0.5px;
 }
-.muted {
-}
+
 .infoTitle {
   font-size: 18px;
   font-weight: bold;

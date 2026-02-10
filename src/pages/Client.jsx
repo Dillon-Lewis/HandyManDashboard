@@ -8,6 +8,7 @@ import React, { useState } from "react";
 import StatsCards from "../components/StatsCards";
 import { BiPlus } from "react-icons/bi";
 import { BiMinus } from "react-icons/bi";
+import TopNavBar from "../components/TopNavBar";
 
 const Client = () => {
   //using Context to pull in user
@@ -47,6 +48,7 @@ const Client = () => {
     <div className={styles.container}>
       <SideBarNav />
       <div className={styles.headingContainer}>
+        <TopNavBar/>
         <div className={styles.projectHeader}>
           Hello, {user?.name || user?.email}
         </div>

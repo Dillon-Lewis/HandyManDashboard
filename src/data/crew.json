@@ -4,27 +4,35 @@
     "name": "Mike Thompson",
     "role": "Contractor",
     "projects": [1, 5, 9, 10, 12],
+    "phone": "223-4434",
+    "email": "Mike@contractor.com",
     "profilePic": "https://randomuser.me/api/portraits/men/32.jpg"
   },
   {
     "id": 2,
     "name": "Sarah Lee",
-    "role": "General Labor",
+    "role": "Labor",
+    "phone": "223-4434",
+    "email": "Sarah@Handyman.com",
     "projects": [1, 2, 9, 11],
     "profilePic": "https://randomuser.me/api/portraits/women/44.jpg"
   },
   {
     "id": 3,
     "name": "David Kim",
-    "role": "Electrician",
+    "role": "Labor",
     "projects": [3, 7, 10, 12],
+    "phone": "223-4434",
+    "email": "Dave@gmail.com",
     "profilePic": "https://randomuser.me/api/portraits/men/65.jpg"
   },
   {
     "id": 4,
     "name": "Laura Chen",
-    "role": "Builder",
+    "role": "Contractor",
     "projects": [4, 6, 8, 11],
+    "phone": "223-4434",
+    "email": "Luara@contractor.com",
     "profilePic": "https://randomuser.me/api/portraits/women/21.jpg"
   }
 ]

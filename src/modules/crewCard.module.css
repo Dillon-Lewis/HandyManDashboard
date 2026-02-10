@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px;
+  border-radius: 12px;
+  background: #f9fafb;
+}
+
+.avatar {
+  width: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.info {
+  flex: 1;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* status dot */
+.statusDot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.active {
+  background: #22c55e;
+}
+
+.inactive {
+  background: #ef4444;
+}

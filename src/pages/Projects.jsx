@@ -6,6 +6,7 @@ import projects from "../data/projects.json";
 import clients from "../data/clients.json";
 import crewMembers from "../data/crew.json";
 import React, { useState } from "react";
+import TopNavBar from "../components/TopNavBar";
 
 const Projects = () => {
   const { user } = useAuth();
@@ -60,6 +61,7 @@ const Projects = () => {
     <div className={styles.container}>
       <SideBarNav />
       <div className={styles.headingContainer}>
+        <TopNavBar/>
         <div className={styles.projectHeader}>
           Hello, {user?.name || user?.email}
         </div>
@@ -69,11 +71,6 @@ const Projects = () => {
           <div className={styles.tableHeader}>
             <h2>All Projects</h2>
             <div className={styles.actions}>
-              <button
-                className={styles.addButton}
-              >
-                Add Project +
-              </button>
 
               <select
                 className={styles.sortSelect}
